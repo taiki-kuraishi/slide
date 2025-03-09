@@ -1,2 +1,3 @@
 # slide
-my presentation slide respoistory
+
+my presentation slide repository

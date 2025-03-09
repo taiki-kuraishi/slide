@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: true
+  commands:
+    format:
+      stage_fixed: true
+      run: bun run format
+    editorconfig-checker:
+      run: bun run editorconfig-checker
+    markdownlint:
+      run: bun run markdownlint
+    textlint:
+      run: bun run textlint

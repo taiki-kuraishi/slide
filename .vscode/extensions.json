@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "marp-team.marp-vscode",
+    "davidanson.vscode-markdownlint",
+    "biomejs.biome",
+    "editorconfig.editorconfig"
+  ]
+}
