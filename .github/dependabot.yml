@@ -1,0 +1,29 @@
+# https://docs.github.com/ja/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: '⬆️ '
+      prefix-development: '⬆️ '
+    pull-request-branch-name:
+      separator: "/"
+    labels:
+      - "dependencies"
+      - "github-actions"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: '⬆️ '
+      prefix-development: '⬆️ '
+    pull-request-branch-name:
+      separator: "/"
+    labels:
+      - "dependencies"
+      - "npm"
