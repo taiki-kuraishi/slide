@@ -20,30 +20,30 @@ marp: true
   - `mixed`の根絶
 
 <br/>
-→ PHPstanいれよう!
+→ PHPStanいれよう!
 
 → Laravelで型安全に書く方法を共有します。
 
 ---
 
-# PHPstanとは
+# PHPStanとは
 
 - phpの静的解析ツール
 - open-sourceで、無料
 
 # Larastanとは
 
-- LaravelのためのPHPstanのextension
-- laravelの Magic method, Facadeに対応
+- LaravelのためのPHPStanのextension
+- Laravelの Magic method, Facadeに対応
 
     → クラスをインスタンスしなくても、staticメソッドのように呼び出す機能
     → `Auth::`, `DB::`, `Gate::`, etc ...
 
 ---
 
-# PHPstan 設定
+# PHPStan 設定
 
-- PHPstan Level
+- PHPStan Level
   - Levelによってチェックされる内容が異なる
   - Levelは累積で、Level2は0、1、2を内包する
 
@@ -53,17 +53,17 @@ marp: true
   4. `dead code`のチェック
   10. mixedの根絶
 
-※ 引用: <https://phpstan.org/user-guide/rule-levels>
+※ 引用: <https://PHPStan.org/user-guide/rule-levels>
 
 ---
 
-# PHPstan Baseline
+# PHPStan Baseline
 
-- PHPstan を後から導入したら、大量のエラーが発生してしまった
+- PHPStan を後から導入したら、大量のエラーが発生してしまった
 
 - BaseLineを定義する
   >PHPStanでは、現在報告されているエラーリストを「ベースライン」として宣言し、それ以降の実行で報告されないようにすることができる。これにより、新しいコードや変更されたコードにおける違反にのみ関心を持つことができる。
-  <https://phpstan.org/user-guide/baseline>
+  <https://PHPStan.org/user-guide/baseline>
 
 ---
 
@@ -155,4 +155,4 @@ marp: true
 
 Laravelを型安全に書く記事がネットになかったので書きました。
 お手隙で、base lineのエラーを解消していただけると助かります。
-PHPstanで型エラーを減らし、綺麗なコードを書いていきましょう。
+PHPStanで型エラーを減らし、綺麗なコードを書いていきましょう。
