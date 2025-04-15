@@ -16,7 +16,7 @@
     "@marp-team/marp-core": "^4.0.1",
     "@types/bun": "latest",
     "editorconfig-checker": "^6.0.1",
-    "lefthook": "^1.11.9",
+    "lefthook": "^1.11.10",
     "markdownlint": "^0.37.4",
     "markdownlint-cli2": "^0.17.2",
     "textlint": "^14.6.0",
