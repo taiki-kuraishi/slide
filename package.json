@@ -18,7 +18,7 @@
     "editorconfig-checker": "^6.0.1",
     "lefthook": "^1.11.12",
     "markdownlint": "^0.38.0",
-    "markdownlint-cli2": "^0.18.0",
+    "markdownlint-cli2": "^0.18.1",
     "textlint": "^14.7.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
