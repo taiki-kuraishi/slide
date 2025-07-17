@@ -8,7 +8,7 @@
         "@marp-team/marp-cli": "^4.2.0",
         "@marp-team/marp-core": "^4.1.0",
         "@types/bun": "latest",
-        "editorconfig-checker": "^6.0.1",
+        "editorconfig-checker": "^6.1.0",
         "lefthook": "^1.12.2",
         "markdownlint": "^0.38.0",
         "markdownlint-cli2": "^0.18.1",
@@ -319,7 +319,7 @@
 
     "eastasianwidth": ["eastasianwidth@0.2.0", "", {}, "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA=="],
 
-    "editorconfig-checker": ["editorconfig-checker@6.0.1", "", { "bin": { "ec": "dist/index.js", "editorconfig-checker": "dist/index.js" } }, "sha512-9qhGMJNBSDx+V2w7u8eh47AOMFe+9KWG6hzEG3nlB/7SATo0O65jOrqWbcutrToZh2ojtaGlLhQ9kVocWxwsrw=="],
+    "editorconfig-checker": ["editorconfig-checker@6.1.0", "", { "bin": { "ec": "dist/index.js", "editorconfig-checker": "dist/index.js" } }, "sha512-i25NwXlcWhadiO62AFUauucFPi9LwasoMRqoM8KkG3rJp6bx09mL/fDQpNMz2f6Nx/7EPVIZHK5/tIdztWzflA=="],
 
     "ee-first": ["ee-first@1.1.1", "", {}, "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="],
 
