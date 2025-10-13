@@ -17,7 +17,7 @@
     "@types/bun": "latest",
     "editorconfig-checker": "^6.1.0",
     "lefthook": "^1.13.6",
-    "markdownlint": "^0.38.0",
+    "markdownlint": "^0.39.0",
     "markdownlint-cli2": "^0.18.1",
     "textlint": "^15.2.2",
     "textlint-filter-rule-allowlist": "^4.0.0",
