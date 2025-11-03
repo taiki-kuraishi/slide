@@ -13,7 +13,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@marp-team/marp-cli": "^4.2.3",
-    "@marp-team/marp-core": "^4.1.0",
+    "@marp-team/marp-core": "^4.2.0",
     "@types/bun": "latest",
     "editorconfig-checker": "^6.1.1",
     "lefthook": "^1.13.6",
