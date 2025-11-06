@@ -11,7 +11,7 @@
     "marp:pdf": "marp src --pdf --parallel"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.3.4",
     "@marp-team/marp-cli": "^4.2.3",
     "@marp-team/marp-core": "^4.2.0",
     "@types/bun": "latest",
